@@ -1,0 +1,23 @@
+.container {
+    background-color: #FFFFFF;
+    width: 1200px;
+    height: 600px;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+
+    box-shadow: 3px 3px #a7c4ef;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding:40px 20px;
+  }
+
+  .infoSection {
+      height:420px;
+      width: 100%;
+    
+      display: flex;
+      justify-content: space-between;
+  }

@@ -1,0 +1,67 @@
+.currentPanel{
+    height: 100%;
+    width: 300px;
+
+    box-sizing: border-box;
+    padding: 20px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p.label {
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    color: grey;
+}
+
+div.currentTemp {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.currentTemp div.data {
+    display: flex;
+    height: 100px;
+    margin:0px auto;
+}
+
+div.data p.temp{
+    height: 100px;
+    font-size: 40px;
+    line-height: 100px;
+    font-family: bold;
+}
+
+div.data p.unit{
+    height: 100px;
+    font-size: 20px;
+    line-height: 50px;
+    font-family: bold;
+}
+
+div.data img {
+    height: 100px;
+    width: 100px;
+}
+
+p.desc {
+    height: 100px;
+    font-size: 30px;
+    line-height: 100px;
+    font-family: bold;
+}
+
+div.otherInfos {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.otherInfos p.value {
+    margin-top: 10px;
+}

@@ -1,0 +1,29 @@
+.search {
+    height: 50px;
+    width: 100%;
+    line-height: 40px;
+
+    display: flex;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding:5px 10px;
+}
+
+p, input {
+    font-size:20px;
+}
+
+.search p{
+    line-height: 40px;
+    margin-right: 30px;
+}
+
+.search input{
+    height: 30px;
+    width: 250px;
+    border-radius: 4px;
+    border:1px solid #d7d4d4;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
